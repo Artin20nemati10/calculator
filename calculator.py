@@ -53,7 +53,7 @@ while True:
         print (num_1, "**", num_2, "=",c.power())
     elif act == "sqrt":
         c= calculator(num_1,None)
-        print ("sqrt [num_1] : ", c.sqrt())
+        print ("sqrt ",num_1,":", c.sqrt())
 
     else:
         print (Style.BRIGHT + Fore.RED + "DO it again")
